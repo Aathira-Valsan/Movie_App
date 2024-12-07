@@ -29,14 +29,14 @@ const MovieListing = () => {
     shows.Response === "True" ? (
       shows.Search.map((movie, index) => <MovieCard key={index} data={movie} />)
     ) : (
-      <div className="movie-error">
-        <h3>{movies.Error}</h3>
+      <div className="shows-error">
+        <h3>{shows.Error}</h3>
       </div>
     );
-  console.log(renderShows);
+  // console.log(renderShows);
 
   return (
-    <div className="movies-wrapper">
+    <div className="movie-wrapper">
       <div className="movie-list">
         <h2>Movies</h2>
         <div className="movie-container">
