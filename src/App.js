@@ -9,7 +9,7 @@ import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Router>
         <Header />
         <div className="container">
